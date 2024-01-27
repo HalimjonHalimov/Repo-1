@@ -1,6 +1,6 @@
 
 export default function Container({children}) {
   return (
-    <div className="w-full h-full mx-auto border border-rose-700">{children}</div>
+    <div className="w-[1240px] h-full  mx-auto">{children}</div>
   )
 }

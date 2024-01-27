@@ -19,6 +19,7 @@ export default function Input({
       <label className="font-semibold">{label}</label>
       <input
         type={type}
+        name={type}
         placeholder={text}
         className={`border placeholder-current  rounded py-2 px-3 outline-none shadow-md ${isEqual ? 'border-rose-700 text-rose-700' : 'border-slate-300 text-black'}`}
         onChange={(e) => setState(e.target.value)}
